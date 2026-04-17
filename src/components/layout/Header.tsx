@@ -15,13 +15,7 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="relative z-50 border-b-2 border-[var(--color-parchment-edge)]"
-      style={{
-        backgroundColor: 'var(--color-parchment-dark)',
-        backgroundImage: 'url(/textures/paper-grain.png)',
-        backgroundSize: '512px 512px',
-        boxShadow: '0 2px 12px rgba(26, 14, 7, 0.2)',
-      }}>
+    <header className="relative z-50 border-b-2 border-transparent">
       {/* Decorative top border */}
       <div className="h-1.5 w-full"
         style={{

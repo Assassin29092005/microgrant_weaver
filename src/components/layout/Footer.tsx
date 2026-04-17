@@ -2,15 +2,7 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer
-      className="relative z-10 border-t-2 border-[var(--color-parchment-edge)] mt-16"
-      style={{
-        backgroundColor: 'var(--color-parchment-dark)',
-        backgroundImage: 'url(/textures/paper-grain.png)',
-        backgroundSize: '512px 512px',
-        boxShadow: '0 -2px 12px rgba(26, 14, 7, 0.15)',
-      }}
-    >
+    <footer className="relative z-10 border-t-2 border-transparent mt-16">
       {/* Ornamental top border */}
       <div className="ornament-divider text-xs py-2" aria-hidden="true">
         ⁕ ❧ ⁕
